@@ -9,10 +9,10 @@
     <TextView
         android:layout_width="197dp"
         android:layout_height="61dp"
-        android:layout_marginTop="216dp"
-        android:text="Hello World!"
+        android:layout_marginTop="100dp"
+        android:text="@string/android_pd"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintHorizontal_bias="0.35"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
