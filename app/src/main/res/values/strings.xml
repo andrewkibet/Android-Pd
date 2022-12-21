@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Android Pd</string>
+    <string name="android_pd">Android Pd</string>
+    <string name="Photo">Button</string>
 </resources>
