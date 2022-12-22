@@ -23,6 +23,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         button = findViewById(R.id.photo);
         click = findViewById(R.id.imageView);
+        click.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                open();
+            }
+            public void open(){
+                Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                startActivityForResult(intent,0);
+            }
+        });
 
 
     }
