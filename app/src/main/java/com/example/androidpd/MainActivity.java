@@ -33,19 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                 startActivityForResult(intent,0);
             }
-            @Override
-            protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-// TODO Auto-generated method stub
-                super.onActivityResult(requestCode, resultCode, data);
-                Bitmap bp = (Bitmap) data.getExtras().get("data");
-                imgFavorite.setImageBitmap(bp);
-            }
-            @Override
-            public boolean onCreateOptionsMenu(Menu menu) {
-// Inflate the menu; this adds items to the action bar if it is present.
-                getMenuInflater().inflate(R.menu.main, menu);
-                return true;
-            }
+
 
         });
 
