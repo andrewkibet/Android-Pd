@@ -7,4 +7,11 @@ so its objectives will be:
   * There are two ways in which you could use your camera in your application:*
     1.Using existing android camera application in our application
     2.Directly using Camera API provided by android in our application
-  * 
+
+
+
+**Phone Calls**
+Intent Object - Action to make Phone Call
+You will use ACTION_CALL action to trigger built-in phone call functionality available in Android device. Following
+is simple syntax to create an intent with ACTION_CALL action
+Intent phoneIntent = new Intent(Intent.ACTION_CALL);
