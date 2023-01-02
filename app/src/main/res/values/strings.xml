@@ -3,4 +3,6 @@
     <string name="android_pd">Android Pd</string>
     <string name="Photo">Button</string>
     <string name="make_call">Call</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 </resources>
