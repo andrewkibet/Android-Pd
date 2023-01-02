@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 
@@ -31,5 +32,19 @@ public class phonecall extends AppCompatActivity {
 
     Intent phoneIntent = new Intent(Intent.ACTION_CALL);
     phoneIntent.setData(Uri.parse("tel:91-800-001-0101"))
+            try {
+        startActivity(phoneIntent);
+        finish();
+        Log.i("Finished making a call...", "");
+    } catch (android.content.ActivityNotFoundException ex) {
+        Toast.makeText(MainActivity.this,
+                "Call faild, please try again later.", Toast.LENGTH_SHORT).show();
+    }
+}
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
 
 }
