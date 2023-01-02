@@ -2,5 +2,5 @@
     <string name="app_name">Android Pd</string>
     <string name="android_pd">Android Pd</string>
     <string name="Photo">Button</string>
-    <string name="make_call">makecall</string>
+    <string name="make_call">Call</string>
 </resources>
