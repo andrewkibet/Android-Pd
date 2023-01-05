@@ -7,7 +7,7 @@
     android:layout_height="fill_parent"
     tools:context=".phonecall">
 
-    <Button android:id="@+id/makeCall"
+    <Button android:id="@+id/makecall"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/make_call"/>
