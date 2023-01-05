@@ -1,4 +1,4 @@
-fpluginManagement {
+pluginManagement {
     repositories {
         gradlePluginPortal()
         google()
