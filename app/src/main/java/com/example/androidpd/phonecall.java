@@ -2,6 +2,7 @@ package com.example.androidpd;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -28,20 +29,24 @@ public class phonecall extends AppCompatActivity {
             }
         });
     }
-    protected void makecall();
-    Log.i("makecall","");
 
-    Intent phoneIntent = new Intent(Intent.ACTION_CALL);
-    phoneIntent.setData(Uri.parse("tel:91-800-001-0101"))
-            try {
-        startActivity(phoneIntent);
-        finish();
-        Log.i("Finished making a call...", "");
-    } catch (android.content.ActivityNotFoundException ex) {
-        Toast.makeText(MainActivity.this,
-                "Call faild, please try again later.", Toast.LENGTH_SHORT).show();
+    @SuppressLint("LongLogTag")
+    protected void makecall() {
+        Log.i("makecall","");
+
+        Intent phoneIntent = new Intent(Intent.ACTION_CALL);
+        phoneIntent.setData(Uri.parse("tel:91-800-001-0101"));
+        try {
+            startActivity(phoneIntent);
+            finish();
+            Log.i("Finished making a call...", "");
+        } catch (android.content.ActivityNotFoundException ex) {
+           Toast.makeText(MainActivity.this,"Cal failed",Toast.LENGTH_SHORT).show();
+        }
+
     }
-}
+
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
