@@ -21,6 +21,6 @@ working with apktool to reverse engineer apks.
 Download apk from apkPure; or use Android Debug Bridge.
  Decompile usng apk tool.
 
-**FRIDA**
+**FRIDA** Is a dynamic instrumentation toolkit for developers and security researchers.
 
 
