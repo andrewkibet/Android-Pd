@@ -10,7 +10,7 @@ so its objectives will be:
 
 
 
-**Phone Calls**
+ **Phone Calls**
 Intent Object - Action to make Phone Call
 You will use ACTION_CALL action to trigger built-in phone call functionality available in Android device. Following
 is simple syntax to create an intent with ACTION_CALL action
@@ -20,3 +20,7 @@ working with apktool to reverse engineer apks.
 
 Download apk from apkPure; or use Android Debug Bridge.
  Decompile usng apk tool.
+
+**FRIDA**
+
+
