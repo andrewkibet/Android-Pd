@@ -19,3 +19,4 @@ Intent phoneIntent = new Intent(Intent.ACTION_CALL);
 working with apktool to reverse engineer apks.
 
 Download apk from apkPure; or use Android Debug Bridge.
+ Decompile usng apk tool.
