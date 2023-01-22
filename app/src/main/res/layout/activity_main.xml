@@ -41,5 +41,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
+    <ProgressBar
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+></ProgressBar>
 </RelativeLayout>
