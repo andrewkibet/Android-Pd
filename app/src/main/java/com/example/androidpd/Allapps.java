@@ -2,6 +2,7 @@ package com.example.androidpd;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -14,5 +15,7 @@ public class Allapps extends AppCompatActivity {
     }
 
     public void BtnListapps(View view) {
+
+        startActivities(this,new Intent,MainActivity.class);
     }
 }
