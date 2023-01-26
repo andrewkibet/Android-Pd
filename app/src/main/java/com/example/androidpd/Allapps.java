@@ -16,6 +16,5 @@ public class Allapps extends AppCompatActivity {
 
     public void BtnListapps(View view) {
 
-        startActivities(this,new Intent,MainActivity.class);
-    }
+         }
 }
