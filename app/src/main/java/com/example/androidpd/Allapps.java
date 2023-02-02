@@ -17,14 +17,7 @@ public class Allapps extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_allapps);
         button = findViewById(R.id.bn);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final Intent mainIntent = new Intent(Intent.ACTION_MAIN, null);
-                mainIntent.addCategory(Intent.CATEGORY_LAUNCHER);
-                final List pkgAppsList = context.getPackageManager().queryIntentActivities( mainIntent, 0);
-            }
-        });
+
     }
 
     public void BtnListapps(View view) {
