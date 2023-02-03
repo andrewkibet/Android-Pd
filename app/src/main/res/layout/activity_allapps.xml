@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/apps"
@@ -26,7 +27,7 @@
         android:layout_width="349dp"
         android:layout_height="63dp"
         android:layout_marginTop="36dp"
-        android:background="#E9531277"
+        android:background="#E99C14E8"
         android:onClick="BtnListapps"
         android:text="@string/button"
         app:layout_constraintEnd_toEndOf="parent"
